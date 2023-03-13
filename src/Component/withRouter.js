@@ -6,5 +6,7 @@ import { useParams } from 'react-router-dom';
         <WrappedComponent {...props} params={params}/>
     )
 
+
+    
 }
 export default withRouter;
